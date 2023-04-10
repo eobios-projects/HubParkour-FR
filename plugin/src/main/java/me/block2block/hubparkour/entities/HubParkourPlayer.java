@@ -389,7 +389,7 @@ public class HubParkourPlayer implements IHubParkourPlayer {
 
                             bindings.clear();
                             bindings.put("position","" + position);
-                            bindings.put("suffix",((position % 10 == 1)?"st":((position % 10 == 2)?"nd":((position % 10 == 3)?((position == 13)?"th":"rd"):"th"))));
+                            bindings.put("suffix",((position == 1)?"ère":((position== 2)?"nde": "ème")));
                             bindings.put("parkour-name",parkour.getName());
 
                             ConfigUtil.sendMessage(player, "Messages.Parkour.Leaderboard.Leaderboard-Place", "You are in &a{position}{suffix} place&r for the &a{parkour-name}&r parkour!", true, bindings);
