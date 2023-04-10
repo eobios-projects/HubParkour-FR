@@ -136,6 +136,10 @@
             <id>placeholderapi</id>
             <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
         </repository>
+        <repository>
+            <id>hp-repo</id>
+            <url>https://nexus.block2block.me/repository/HubParkour/</url>
+        </repository>
     </repositories>
 
     <properties>
