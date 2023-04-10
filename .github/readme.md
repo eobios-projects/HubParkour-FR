@@ -2,6 +2,11 @@
 
 Welcome to HubParkour, the ultimate Hub Parkour solution!
 
+## Fr-version
+
+This is not the official repository, this repository only serve to implement some fixes
+And add some language support for french that are not modifiable in config
+
 ## Installation
 
 For installation instructions, please follow the instructions located on the [spigot page](https://www.spigotmc.org/resources/hubparkour.47713/).
